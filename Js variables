@@ -1,0 +1,26 @@
+var a="charan"
+console.log(a);
+
+var x=100
+console.log(x);
+
+let b='murali'
+console.log(b);
+
+console.log(k);
+
+
+let y=200
+console.log(y);
+
+const c='Mohan'
+console.log(c);
+
+const z=300
+console.log(z);
+
+
+
+
+
+
