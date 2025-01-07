@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a =1
+        console.log("hi + a");
+        document.write("hi + a","<br>");
+        
+        console.log('hi '+a);
+        document.write('hi '+ a,"<br>");
+
+        console.log(`hi ${a+a}`);
+        document.write(`hi ${a+a}`,"<br>");
+        document.write("The type of a is : ","<b>",typeof(a),"</b>");
+        document.write("<hr>");
+
+        
+        
+        let x = "Murali"
+        let y = "Mohan"
+        let z = 20
+        document.write(`I am " <b>${x} ${y} </b>" , my age is <b> ${z} </b> years old`,"<br>");
+        document.write("The type of x is : ",typeof(x),"<br>");
+
+        const k = "React js"
+        const l = "Student"
+        const m = "Charan"
+        document.write(` ${k} ${l} =  ${m}`)
+
+        document.write("<hr>");
+        let d=null //object data type
+        document.write(typeof(d),"<br>")
+
+        let e //undefined data type
+        document.write(typeof(e))
+
+    </script>
+</body>
+</html>
