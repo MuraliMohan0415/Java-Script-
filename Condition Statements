@@ -1,0 +1,32 @@
+//let a=5
+        //let b=10
+        //if(a>b){
+        //    document.write("Hi priya","<br>")
+        //}else{
+        //    document.write("Hi Murali","<br>")
+        //}
+        //document.write("Welcome to India")
+
+        // age= prompt("Enter your age")
+        // name=prompt("Enter your name")
+        //if(age>=18){
+        //    document.write("Welcome "+name+" you are eligible to vote")
+        //    }else{
+        //        document.write("Welcome "+name+" you are not eligible to vote")
+        //        }
+        // if(age<18){
+        //     alert(name+ "You are too young to marry")
+        // }else if(age>35){
+        //     alert(name+" You are too old to marry")
+        // }else{
+        //     alert(name+" You are eligible to marry")
+        // }
+        
+        // let a= prompt("Enter the score of A")
+        // let b= prompt("Enter the score of B")
+        // if(a>300 || b>300 && (a+b)<500 ){
+        //     document.write("can team up")
+        // }else{
+        //     document.write("Cannot team up")
+        // }
+        
