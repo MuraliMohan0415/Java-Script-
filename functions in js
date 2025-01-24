@@ -32,6 +32,22 @@
         let c = add(a,b);
         console.log("The sum is : "+c)
         document.write("The sum is : "+c)
+
+        // Arrow functions without parameter
+        let c=()=>{
+            console.log("Hii priya")
+        }
+        c()
+        //Arrow functions with parameters
+        let x=(x,y)=>{
+            console.log(x+y)
+        }
+        x(20,30)
+
+        //ternary operator
+        let age= 18;
+        let welcome=(age<18)?()=>console.log("hi priya"):()=>console.log("hii charan")
+        
     </script>
 </body>
 </html>
