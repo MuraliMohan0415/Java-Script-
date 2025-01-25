@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Example1
+    // function mainfunction(callback){
+	//     console.log("Execute main function")
+	//     callback()
+    // }
+    // function callbackFunction( ){
+	//     console.log("callback function excuted")
+	    
+    // }
+    // mainfunction(callbackFunction);
+
+    // //Example2
+    // function greet(name,callback){
+    //     console.log("hello "+name);
+    //     callback();
+
+    // }
+    // function goodBye(){
+    //     console.log("Good byeee")
+    // }
+    // greet("Priya",goodBye)
+
+    //Example3: using an anynomous function as a callback
+
+    // function greet(name,callback){
+    //     console.log("hello "+name);
+    //     callback();
+
+    // }
+    
+    // greet("Charan",function(){
+    //     console.log("goodbye") //anynomous function 
+    // });
+
+    //example4: using an asynchronous function as a callback
+    // function fetchData(callback){
+    //     console.log("Fetchin Data")
+    //     setTimeout(function(){
+    //         console.log("Data fetched")
+    //         callback();
+    //     },2000)
+    // }
+
+    // function processData(){
+    //     console.log("processing the fetched data")
+    // }
+    // fetchData(processData)
+
+    //Example5 : using a callback with array methods (map)
+        // const numbers=[1,2,3,4,5]
+        // const d = numbers.map(function(num){
+        //     return num * 2
+        // })
+        // console.log(d)
+
+    //example6: user registration
+    function registeruser(username,email,callback){
+        console.log("registering user "+username)
+        setTimeout(function(){
+            console.log("user "+username+" registered successfully")
+        },2000)
+    }
+    function sendWelcomeEmail(email){
+        console.log("sending welcome email to "+email)
+    }
+    registeruser("Charan","charan041504@gmail.com",sendWelcomeEmail)
+
+    </script>
+</body>
+</html>
