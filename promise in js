@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // promise example
+        // let mypromise = new Promise((resolve,reject)=>{
+        //     let success=false;
+        //     if(success){
+        //         resolve("The operation is successfull");
+        //     }else{
+        //         reject("The operation failed")
+        //     }
+        // })
+        // mypromise
+        // .then(result=>{
+        //     console.log(result);
+        // })
+        // .catch(error=>{
+        //     console.log(error)
+        // })
+        
+        //chaining promises
+        // let promise=new Promise((resolve,reject)=>{
+        //     resolve(5) //initial resolve value is 5
+        // })
+        // promise
+        // .then(result=>{
+        //     console.log(result)
+        //     return result*2 //returning new value
+        // })
+        // .then(result=>{
+        //     console.log(result)
+        //     return result + 3 //return a new value
+        // })
+        // .then(result=>{
+        //     console.log(result)
+        // })
+        // .catch(error=>{
+        //     console.log("error",error)
+        // })
+
+        //promise with setTimeout
+        let fetchData= new Promise((resolve,reject)=>{
+            let dataFetched=true;
+            setTimeout(()=>{
+                if(dataFetched){
+                    resolve("Data fetched successfully")
+                }else{
+                    console.log("Data fetched failed")
+                }
+            },3000)
+            
+        })
+        fetchData
+        .then(result=>{
+            console.log(result)
+        })
+        .catch(error=>{
+            console.log(result)
+        })
+    </script>
+</body>
+</html>
