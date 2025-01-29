@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="a" class="a">I am Murali</h1>
+    <h1 id="b" class="b"> I am Mohan</h1>
+    <h1 id="c" class="a">I am charan</h1>
+    <h1 class="a">Priyaa</h1> -->
+    <script>
+        // let x=document.getElementById('a')
+        // console.log(x)
+
+        // let a=document.getElementsByTagName('h1')
+        // console.log(a)
+
+        // for(let i=0;i<a.length;i++){
+        //     console.log(a[i])
+        // }  
+        
+        // let t=document.createElement('h2')
+        // t.className="tt"
+        // t.textContent="Hello world"
+        // console.log(t)
+        // document.body.appendChild(t)
+
+        const t=['priya','charan','murali']
+        for(let i=0;i<t.length;i++){
+            let tt=document.createElement("h1")
+            tt.className="a"
+            tt.textContent=t[i];
+            console.log(t[i])
+        }
+    </script>
+</body>
+</html>
