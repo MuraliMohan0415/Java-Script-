@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+                <!-- Program 1 -->
+    <!-- Removing child node from parent node using js -->
+    <!-- <h1>Removing Elements</h1>
+    <h1>I am charan</h1>
+    <ul>
+        <li>charan</li>
+        <li>murali</li>
+        <li>mohan</li>
+    </ul>
+    <script>
+        const ul=document.querySelector('ul')
+        const lists= document.querySelectorAll('li')
+        for(const list of lists){
+            console.log(`Removing: ${list.textContent}`)
+            ul.removeChild(list)
+        }
+    </script> -->
+                <!-- program 2 -->
+    <!-- To append a new element to the parent node -->
+    <div id="a">
+        <h1>Priya</h1>
+        <h1>Charan</h1>
+
+    </div>
+    <div id="b">
+        <h1>Murali</h1>
+        <h1>Mohan</h1>
+    </div>
+    <script>
+        let n=document.createElement("h2")
+        n.textContent="Pushpa"
+        //get the parent element
+        let p=document.getElementById("b")
+
+        // append the new element to the parent node 
+        p.appendChild(n)
+
+        //log the inner text of the parent
+        console.log(p)
+        console.log(p.innerText)
+
+    </script>
+
+</body>
+</html>
