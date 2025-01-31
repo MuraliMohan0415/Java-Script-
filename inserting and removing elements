@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 31/1/2025 -->
+    <!-- Main Program 1 -->
+    <!-- Insert an element before another element -->
+    <div id="a">
+        <h1 id="c">Sudheer</h1>
+        <h1 id="d">Charan</h1>
+
+    </div>
+    <div id="b">
+        <h1>Murali</h1>
+        <h1>Mohan</h1>
+    </div>
+    <script>
+        //program1
+        //inserting Raghu before charan
+        // let n=document.createElement('h2')
+        // n.textContent="Raghu"
+
+        // let p=document.getElementById('a')
+        // let o=document.getElementById('d')
+        // p.insertBefore(n,o)
+        // console.log(p)
+
+        // //inserting Chakri before sudheer
+        // let k=document.createElement('h3')
+        // k.textContent="Chakri"
+        // let l=document.getElementById('c')
+        // p.insertBefore(k,l)
+
+        //program 2
+        // to remove an  element 
+        // let b=document.getElementById('b')
+        // b.remove()
+
+        //program 3
+        //to remove child element from parent node (one method)
+        // let x=document.getElementById('a')
+        // let y=document.getElementById('d')
+        // console.log(x)
+        // y.remove()
+        
+        //program 4
+        //to remove child element from parent node (second method)
+        let k=document.getElementById('a')
+        let l=document.getElementById('d')
+        console.log(k)
+        k.removeChild(l)
+    </script>
+</body>
+</html>
